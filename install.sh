@@ -1,5 +1,6 @@
 cp lockoverlay.png /usr/share/pixmaps/
-userr=$(whoami | awk '{print $1}')  
+echo "Enter your os username here: "
+read userr
 cp launch_besti3.sh /home/$userr/.config/i3/
 
 chmod +x /home/$userr/.config/i3/launch_besti3.sh
