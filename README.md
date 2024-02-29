@@ -20,3 +20,5 @@ sudo sh delete.sh
 ```
 You can add a combination in the i3 config to a keyboard shortcut for locking, for example mod+l:
 bindsym $mod+l exec --no-startup-id /home/YOUR_USER/.config/i3/launch_besti3.sh
+
+![image](https://github.com/Esteviredzu/best_i3lock/assets/82750197/d1072681-e65e-4578-87d8-ddf0d9186ee4)
